@@ -35,7 +35,7 @@ class ImgB642File {
 			'ID'           => $post_id,
 			'post_content' => $content,
 		));
-		
+
 		$this->hooks();
 	}
 }
