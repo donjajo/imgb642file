@@ -9,6 +9,7 @@ Stable tag: trunk
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 ```
+<<<<<<< HEAD
 
 An over-engineered-memory-safe search and replace base64 inline images to an uploaded URL when a post is saved.
 
@@ -17,6 +18,7 @@ An over-engineered-memory-safe search and replace base64 inline images to an upl
 An over-engineered-memory-safe search and replace base64 inline images to an uploaded URL when a post is saved.
 
 #### Converts this:
+
 ```
 <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAHElEQVQI12P4//8/w38GIAXDIBKE0DHxgljNBAAO9TXL0Y4OHwAAAABJRU5ErkJggg==" alt="Red dot" />
 ```
