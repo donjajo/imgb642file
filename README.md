@@ -1,4 +1,6 @@
 ```
+=======
+>>>>>>> 02fa473b99bba280365ac7c0ee07e927861eac13
 === ImageBase642File ===
 Contributors: donjajo
 Tags: save_post,convert image,image
@@ -13,6 +15,8 @@ License URI: https://www.gnu.org/licenses/gpl-3.0.html
 An over-engineered-memory-safe search and replace base64 inline images to an uploaded URL when a post is saved.
 
 # == Description ==
+
+An over-engineered-memory-safe search and replace base64 inline images to an uploaded URL when a post is saved.
 
 Converts this:
 ```
