@@ -9,7 +9,6 @@ Stable tag: trunk
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 ```
-<<<<<<< HEAD
 
 An over-engineered-memory-safe search and replace base64 inline images to an uploaded URL when a post is saved.
 
