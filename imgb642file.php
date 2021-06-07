@@ -4,7 +4,7 @@
  * Author:		James John
  * Author URI:		https://www.linkedin.com/in/donjajo/
  * Description:		An over-engineered-memory-safe search and replace base64 inline images to an uploaded URL when post is saved
- * Version:		1.0
+ * Version:		1.0.0
  * Plugin URI:		https://github.com/donjajo/imgb642file
  * Text Domain:		imgb642file
  * License:		GPLv3
