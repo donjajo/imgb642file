@@ -19,7 +19,7 @@ class ImgB642File {
 	}
 
 	public function run( int $post_id, \WP_Post $post ) {
-		// Currently, only supports post and page type
+		// Currently, only supports post, page and product type
 		if ( 'post' !== $post->post_type && 'page' !== $post->post_type && 'product' !== $post->post_type ) {
 			return;
 		}
