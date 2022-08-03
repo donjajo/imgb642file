@@ -19,12 +19,13 @@ class ImgB642File {
 	}
 
 	public function run( int $post_id, \WP_Post $post ) {
-		// Currently, only supports post and page type
-		if ( 'post' !== $post->post_type && 'page' !== $post->post_type ) {
+		// Currently, only supports post, page and product type
+		if ( 'post' !== $post->post_type && 'page' !== $post->post_type && 'product' !== $post->post_type ) {
 			return;
 		}
 
 		$this->find_replace = Find_Replace::instance( $this );
+		$this->post_content = apply_filters( 'the_content', $this->post_content );
 
 		$content = $this->find_replace->run( $post->post_content, $post )
 				->get();
